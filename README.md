@@ -1,10 +1,10 @@
-# 🖥️ System Monitor Tool (C++)
+# System Monitor Tool
 
 A lightweight C++ system monitor similar to `top`, showing live CPU and memory usage for all running processes.
 
 ---
 
-## 🚀 Features
+## Features
 - Displays **real-time system stats**
 - Shows **CPU%** and **Memory%** per process
 - Allows **sorting** by CPU or memory usage
@@ -13,7 +13,7 @@ A lightweight C++ system monitor similar to `top`, showing live CPU and memory u
 
 ---
 
-## 🧩 Requirements
+##  Requirements
 - Linux environment (uses `/proc`)
 - `g++` compiler
 - `cmake` (for build)
@@ -21,7 +21,7 @@ A lightweight C++ system monitor similar to `top`, showing live CPU and memory u
 
 ---
 
-## ⚙️ Build & Run
+##  Build & Run
 ```bash
 # Clone this repository
 git clone https://github.com/<your-username>/system-monitor-tool.git
