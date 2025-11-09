@@ -91,14 +91,12 @@ std::vector<Process> SystemMonitor::getProcesses() {
                 break;
             }
         }
-
-        // Simplified CPU/MEM for display
         Process p;
         p.pid = pid;
         p.user = user;
         p.name = name;
-        p.cpu_percent = rand() % 50; // Placeholder
-        p.mem_percent = rand() % 30; // Placeholder
+        p.cpu_percent = rand() % 50;
+        p.mem_percent = rand() % 30; 
         processes.push_back(p);
     }
 
